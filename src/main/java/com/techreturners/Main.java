@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Student student1 = new Student();
         student1.setName("Jack");
-        student1.setGroup(1);
-        student1.setGradeType(GradeType.C);
+        student1.setGroup(Group.group1.getGroupNumber());
+        student1.setGradeType(GradeType.B);
         student1.displayName();
         student1.displayGroup();
         student1.displayGrade();
@@ -13,8 +13,8 @@ public class Main {
 
         Student student2 = new Student();
         student2.setName("Jill");
-        student2.setGroup(2);
-        student2.setGradeType(GradeType.B);
+        student2.setGroup(Group.group2.getGroupNumber());
+        student2.setGradeType(GradeType.A);
         student2.displayName();
         student2.displayGroup();
         student2.displayGrade();
